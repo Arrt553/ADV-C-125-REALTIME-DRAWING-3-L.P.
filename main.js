@@ -19,6 +19,7 @@ function draw(){
     square(noseX,noseY,difference);
     fill('#19ffaf');
     stroke("#fff419");
+    document.getElementById("square_side").innerHTML = "Side of the square = " + difference + "px";
 }
 
 function modelLoaded(){
